@@ -1,0 +1,30 @@
+@font-face{
+  font-family: HomepageBaukasten-Book;
+  src: url(../src/font/book/HomepageBaukasten-Book.eot);
+  src: url(../src/font/book/HomepageBaukasten-Book.woff2) format('woff2'),
+  url(../src/font/book/HomepageBaukasten-Book.woff) format('woff'),
+  url(../src/font/book/HomepageBaukasten-Book.ttf) format('ttf');
+}
+@font-face{
+  font-family: HomepageBaukasten-Bold;
+  src: url(../src/font/bold/HomepageBaukasten-Bold.eot);
+  src: url(../src/font/bold/HomepageBaukasten-Bold.woff2) format('woff2'),
+  url(../src/font/bold/HomepageBaukasten-Bold.woff) format('woff'),
+  url(../src/font/bold/HomepageBaukasten-Bold.ttf) format('ttf');
+}
+html {
+  height: 100%;
+  margin: 0;
+}
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: HomepageBaukasten-Book, fallback ,sans-serif;
+}
+#root{
+  height: 100%;
+}
+p,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
